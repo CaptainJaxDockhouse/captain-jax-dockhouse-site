@@ -1,29 +1,29 @@
-# Captain Jax Dockhouse — Website
+# Captain Jax Dockhouse — One‑Page Site
 
-Cold brews, river views, local crews.  
-**Address:** 3326 Lake Shore Blvd, Jacksonville, FL 32210  
-**Hours:** Thu–Fri 4–9 • Sat–Sun 2–9 (Mon–Wed closed)  
-**Phone:** (904) 384-6447 • **Email:** info@captainjaxdockhouse.com  
-**Instagram:** https://instagram.com/Captainjaxdockhouse  
-**Facebook:** https://www.facebook.com/profile.php?id=61574871040136
+This is a ready-to-run React + Vite + Tailwind site for your bar.
 
----
+## Quickstart
+1) Install Node.js 18+
+2) In a terminal, run:
+```bash
+npm install
+npm run dev
+```
+Open the URL it prints to preview the site.
 
-## Overview
-This repo contains the source code for the Captain Jax Dockhouse one-page website (built with **Vite + React + Tailwind CSS**).
+## Build for production
+```bash
+npm run build
+npm run preview
+```
 
-## Live site
-- (Add your Netlify or Vercel URL here once deployed)
+## Deploy
+- **Vercel**: Import the repo, framework=Vite, build=`npm run build`, output=`dist`.
+- **Netlify**: Build command `npm run build`, publish directory `dist`.
+- **GitHub Pages**: Use a Vite + GH Pages action or any static host—deploy the `dist` folder.
 
-## Tech Stack
-- **Vite** (build tool)
-- **React 18**
-- **Tailwind CSS 3**
+## Customize
+Edit `src/CaptainJaxDockhouse.jsx` — change the `CONTENT` block for your real address, hours, specials, menu, and socials.
 
-## Getting Started (local preview)
-1. Install **Node.js 18+**
-2. Clone or download this repo
-3. In the project folder, run:
-   ```bash
-   npm install
-   npm run dev
+## Contact form
+The form is a visual demo. Hook it to an email service (Formspree, Netlify Forms) or your POS later.
